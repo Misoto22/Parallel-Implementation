@@ -1,1 +1,28 @@
 # CITS5507 Project 2
+
+## Compile
+
+In order to facilitate testing, conditional compilation is used to produce various versions of FSB programs.
+1. Complie for no openmp no mpi:
+
+```bash
+gcc -o FSB2_sequential FSB2.c -lm
+```
+
+2. Complie for openmp no mpi:
+
+```bash
+gcc -fopenmp -o FSB2_OpenMP FSB2.c -lm
+```
+
+3. Complie for no openmp mpi:
+
+```bash
+mpicc -D USE_MPI -o FSB2_MPI FSB2.c -lm
+```
+
+4. Complie for openmp mpi:
+
+```bash
+mpicc -D USE_MPI -fopenmp -o FSB2_OpenMP_MPI FSB2.c -lm
+```

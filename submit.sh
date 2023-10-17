@@ -9,5 +9,6 @@
 #module load  openmpi/4.0.5
 
 export OMP_NUM_THREADS=2
+gcc -o FSB2_sequential FSB2.c -lm
 mpicc -fopenmp -o FSB2 FSB2.c
 srun ./FSB2
