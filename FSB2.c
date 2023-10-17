@@ -1,12 +1,12 @@
 /*
 In order to facilitate testing, conditional compilation is used to produce various versions of FSB programs.
-complie for no openmp no mpi:
+compile for no openmp no mpi:
 gcc -o FSB2_sequential FSB2.c -lm
-complie for openmp no mpi:
+compile for openmp no mpi:
 gcc -fopenmp -o FSB2_OpenMP FSB2.c -lm
-complie for no openmp mpi:
+compile for no openmp mpi:
 mpicc -D USE_MPI -o FSB2_MPI FSB2.c -lm
-complie for openmp mpi:
+compile for openmp mpi:
 mpicc -D USE_MPI -fopenmp -o FSB2_OpenMP_MPI FSB2.c -lm
 */
 #define DEFAULT_ITERATE_STEP (10LL)
@@ -32,7 +32,7 @@ mpicc -D USE_MPI -fopenmp -o FSB2_OpenMP_MPI FSB2.c -lm
 #define MAX_XY (100.0)
 #define MIN_MOVING_XY (-0.1)
 #define MAX_MOVING_XY (0.1)
-#define RESULT_FILENAME "Tesing Results/results.csv"
+#define RESULT_FILENAME "Testing Results/results.csv"
 
 #if defined(USE_MPI)
 #define INIT_TAG (888)

@@ -1,7 +1,7 @@
 #!/bin/sh
 #SBATCH --account=courses0101
 #SBATCH --partition=debug
-#SBATCH --ntasks=2
+#SBATCH --ntasks=4
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=00:10:00
 #SBATCH --exclusive
