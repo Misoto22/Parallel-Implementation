@@ -1,0 +1,24 @@
+=== Running: No OpenMP, No MPI ===
+Barycenter: 1.001022, Elapsed time(s): 3.204578, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 3.205458, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 3.207722, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 3.209904, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+==================================
+=== Running: OpenMP, No MPI ===
+Barycenter: 1.002438, Elapsed time(s): 0.880737, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.881706, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.877711, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.888418, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+==============================
+=== Running: No OpenMP, MPI ===
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001232, Elapsed time(s): 0.843131, Number of processes: 4, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+=============================
+=== Running: OpenMP and MPI ===
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001203, Elapsed time(s): 0.253008, Number of processes: 4, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+===============================
