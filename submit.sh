@@ -7,6 +7,9 @@
 #SBATCH --exclusive
 #SBATCH --mem-per-cpu=32G
 
+#SBATCH --output=slurm_output/slurm-%j.out
+
+
 test_file="Testing Results/results.csv"
 
 if [ ! -f "$test_file" ]; then
@@ -15,22 +18,23 @@ fi
 
 echo "=== Running: No OpenMP, No MPI ==="
 gcc -o compile/FSB2_sequential FSB2.c -lm
-srun -n 1 ./compile/FSB2_sequential
+srun -n 4 -c 4 ./compile/FSB2_sequential
 echo "=================================="
 
 echo "=== Running: OpenMP, No MPI ==="
-export OMP_NUM_THREADS=2
+export OMP_NUM_THREADS=16
+export OMP_SCHEDULE=static
 gcc -fopenmp -o compile/FSB2_OpenMP FSB2.c -lm
-srun -n 1 ./compile/FSB2_OpenMP
+srun -n 4 -c 4 ./compile/FSB2_OpenMP
 echo "=============================="
 
 echo "=== Running: No OpenMP, MPI ==="
 #module load openmpi/4.0.5  # Uncomment if needed
 mpicc -D USE_MPI -o compile/FSB2_MPI FSB2.c -lm
-srun -n 2 ./compile/FSB2_MPI
+srun -n 4 -c 4 ./compile/FSB2_MPI
 echo "============================="
 
 echo "=== Running: OpenMP and MPI ==="
 mpicc -D USE_MPI -fopenmp -o compile/FSB2_OpenMP_MPI FSB2.c -lm
-srun -n 2 ./compile/FSB2_OpenMP_MPI
+srun -n 4 -c 4 ./compile/FSB2_OpenMP_MPI
 echo "==============================="
