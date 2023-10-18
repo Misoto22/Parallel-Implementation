@@ -1,4 +1,4 @@
-MPI Nodes, OpenMP Threads, Elapsed time(s), Number of fishes
+MPI, OpenMP, Schedule Type, Chunk Size, Barycenter, Elapsed time(s), Number of processes, Number of threads, Iterate times, Number of fishes
 yes, yes, dynamic, 1, 1.001231, 3.962776, 2, 2, 10, 10000000
 yes, yes, dynamic, 1, 1.001139, 2.892692, 2, 4, 10, 10000000
 yes, yes, dynamic, 1, 1.001087, 2.351365, 2, 8, 10, 10000000
