@@ -25,7 +25,7 @@ run_test() {
     # Vary the number of MPI nodes
     for mpi_nodes in 2 3 4; do
         # Vary the number of OpenMP threads
-        for omp_threads in 2 4 8 16; do
+        for omp_threads in 32 64 128 256; do
             export OMP_NUM_THREADS=$omp_threads
             srun -n $mpi_nodes -c $omp_threads "$3" # Run command
         done
