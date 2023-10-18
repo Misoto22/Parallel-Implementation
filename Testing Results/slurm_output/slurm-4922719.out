@@ -1,0 +1,345 @@
+=== Running: OpenMP and MPI ===
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001395, Elapsed time(s): 1.679240, Number of processes: 2, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001078, Elapsed time(s): 0.840413, Number of processes: 2, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001232, Elapsed time(s): 0.422008, Number of processes: 2, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.000751, Elapsed time(s): 0.223086, Number of processes: 2, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001521, Elapsed time(s): 0.127998, Number of processes: 2, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001390, Elapsed time(s): 0.062844, Number of processes: 2, Number of threads: 32, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By MPI_Send/MPI_Recv Model...
+Dumping second file...
+Barycenter: 1.001197, Elapsed time(s): 1.119574, Number of processes: 3, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By MPI_Send/MPI_Recv Model...
+Dumping second file...
+Barycenter: 1.001488, Elapsed time(s): 0.562065, Number of processes: 3, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By MPI_Send/MPI_Recv Model...
+Dumping second file...
+Barycenter: 1.001180, Elapsed time(s): 0.294891, Number of processes: 3, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By MPI_Send/MPI_Recv Model...
+Dumping second file...
+Barycenter: 1.001123, Elapsed time(s): 0.175703, Number of processes: 3, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By MPI_Send/MPI_Recv Model...
+Dumping second file...
+Barycenter: 1.001287, Elapsed time(s): 0.082341, Number of processes: 3, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By MPI_Send/MPI_Recv Model...
+Dumping second file...
+Barycenter: 1.001288, Elapsed time(s): 0.049247, Number of processes: 3, Number of threads: 32, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.000952, Elapsed time(s): 0.841628, Number of processes: 4, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.000964, Elapsed time(s): 0.422945, Number of processes: 4, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.000792, Elapsed time(s): 0.223339, Number of processes: 4, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001158, Elapsed time(s): 0.121484, Number of processes: 4, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001483, Elapsed time(s): 0.064624, Number of processes: 4, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.000948, Elapsed time(s): 0.031519, Number of processes: 4, Number of threads: 32, Iterate times: 10, Number of fishes: 10000000
+=====================
+=== Running: Serial ===
+Barycenter: 1.001022, Elapsed time(s): 3.209110, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+=====================
+=== Running: MPI Only ===
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.000983, Elapsed time(s): 1.603514, Number of processes: 2, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By MPI_Send/MPI_Recv Model...
+Dumping second file...
+Barycenter: 1.000665, Elapsed time(s): 1.068876, Number of processes: 3, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Dumping first file...
+Exchange Data By Scatter/Gather Model...
+Dumping second file...
+Barycenter: 1.001113, Elapsed time(s): 0.824796, Number of processes: 4, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+=====================
+=== Running: OpenMP Only ===
+Barycenter: 1.001022, Elapsed time(s): 5.109190, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.104411, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.108834, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.104591, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.115838, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.111575, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.101705, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.121983, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.105741, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.098228, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.115399, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.117363, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.132932, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.103346, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.107027, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.109213, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.110146, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.108246, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.105979, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.108486, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.127259, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.109918, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.105859, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.117962, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.111386, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.102897, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.122579, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.117505, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.114217, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.104077, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.120422, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.107525, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.126584, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.135727, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.107529, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.128440, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.117541, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.134061, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.131378, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.114621, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.119967, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.133002, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.120319, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.118005, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.116718, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.124912, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.121551, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.129501, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.132489, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.115881, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.123244, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.117101, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.144631, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.120979, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.124558, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.125538, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.135581, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.120938, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.110114, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.124507, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.123579, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.143032, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.126347, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.139517, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.141376, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.129937, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.129723, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.140555, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.142435, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.126564, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.122084, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.139064, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.127903, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.132562, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.133258, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.143565, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.134470, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.146987, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.122096, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.133310, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.144491, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.127917, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.127431, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.150828, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.130766, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.122497, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.147412, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.135981, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.139624, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.134505, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.131739, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.128653, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.152203, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.158057, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.127322, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.137573, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.119934, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.132712, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.139453, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.155113, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.148280, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.139150, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.134947, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.146189, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.128292, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.151562, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.144141, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.139031, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.152440, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.151693, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.137646, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.136672, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.150576, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.144353, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.132364, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.149186, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.154829, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.148410, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.143561, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.151051, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.154056, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.148505, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.143974, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.146391, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.147265, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.164584, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.175272, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001022, Elapsed time(s): 5.173525, Number of processes: 1, Number of threads: 1, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.552810, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.556668, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.557205, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.556432, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.555350, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.550573, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.561353, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.553225, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.554900, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.555797, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.557860, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.563482, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.563556, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.558280, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.556137, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.553836, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.565294, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.556895, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.558180, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.561269, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.562116, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.561675, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.563330, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.559159, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.562917, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.566761, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.560375, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.565273, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.568136, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.566187, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.564197, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.568334, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.568481, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.567586, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.565642, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.561459, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.559872, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.559427, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.563613, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.564366, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.572162, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.573158, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.563738, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.568730, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.572505, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.567963, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.570687, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.565069, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.569049, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.574076, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.571885, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.568299, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.568845, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.574672, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.570962, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.571485, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.574749, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.574691, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.582078, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.574491, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.577359, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.579271, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.570271, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001481, Elapsed time(s): 2.572995, Number of processes: 1, Number of threads: 2, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.267904, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.272682, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.275002, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.272149, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.277082, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.278916, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.276644, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.273225, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.279265, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.273292, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.277202, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.282562, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.277879, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.278335, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.277665, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.279088, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.282162, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.282142, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.279924, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.284623, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.284216, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.285417, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.281429, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.288763, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.281401, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.287964, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.288603, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.288639, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.280970, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.283723, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.276543, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001281, Elapsed time(s): 1.283800, Number of processes: 1, Number of threads: 4, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.608420, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.610093, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.609701, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.608048, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.611510, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.612191, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.604524, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.609980, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.613726, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.616533, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.614716, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.614301, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.619124, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.619501, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.621755, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001237, Elapsed time(s): 0.633023, Number of processes: 1, Number of threads: 8, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.288048, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.287976, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.287961, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.289141, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.288828, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.290914, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.292784, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.002438, Elapsed time(s): 0.297900, Number of processes: 1, Number of threads: 16, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001058, Elapsed time(s): 0.137373, Number of processes: 1, Number of threads: 32, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001058, Elapsed time(s): 0.140477, Number of processes: 1, Number of threads: 32, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001058, Elapsed time(s): 0.139948, Number of processes: 1, Number of threads: 32, Iterate times: 10, Number of fishes: 10000000
+Barycenter: 1.001058, Elapsed time(s): 0.140276, Number of processes: 1, Number of threads: 32, Iterate times: 10, Number of fishes: 10000000
+=====================

@@ -6,6 +6,19 @@
 sbatch submit.sh
 ```
 
+## SLURM Guide
+
+### Check Job Status
+
+```bash
+squeue -u henrychen
+```
+
+### Cancel a Job
+```bash
+scancel <JOBID>
+```
+
 ## Compile
 
 In order to facilitate testing, conditional compilation is used to produce various versions of FSB programs.
