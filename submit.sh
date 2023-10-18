@@ -7,6 +7,12 @@
 #SBATCH --exclusive
 #SBATCH --mem-per-cpu=32G
 
+test_file="Testing Results/results.csv"
+
+if [ ! -f "$test_file" ]; then
+    echo "MPI, OpenMP, Schedule Type, Chunk Size, Barycenter, Elapsed time(s), Number of processes, Number of threads, Iterate times, Number of fishes" >"$test_file"
+fi
+
 echo "=== Running: No OpenMP, No MPI ==="
 gcc -o compile/FSB2_sequential FSB2.c -lm
 srun -n 1 ./compile/FSB2_sequential
