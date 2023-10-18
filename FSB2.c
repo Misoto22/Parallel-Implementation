@@ -32,7 +32,7 @@ mpicc -D USE_MPI -fopenmp -o FSB2_OpenMP_MPI FSB2.c -lm
 #define MAX_XY (100.0)
 #define MIN_MOVING_XY (-0.1)
 #define MAX_MOVING_XY (0.1)
-#define RESULT_FILENAME "results.csv"
+#define RESULT_FILENAME "Testing Results/results.csv"
 
 #if defined(USE_MPI)
 #define INIT_TAG (888)
