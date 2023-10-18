@@ -1,5 +1,11 @@
 # CITS5507 Project 2
 
+## Run Test
+
+```bash
+sbatch submit.sh
+```
+
 ## Compile
 
 In order to facilitate testing, conditional compilation is used to produce various versions of FSB programs.

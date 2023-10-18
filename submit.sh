@@ -7,7 +7,7 @@
 #SBATCH --exclusive
 #SBATCH --mem-per-cpu=32G
 
-#SBATCH --output=slurm_output/slurm-%j.out
+#SBATCH --output=Testing\ Results/slurm_output/slurm-%j.out
 
 
 test_file="Testing Results/results.csv"
