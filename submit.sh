@@ -60,5 +60,13 @@ run_test "Serial" "gcc -o compile/FSB2_Serial FSB2.c $compiler_flags" "./compile
 # Compile and run the MPI version (With MPI, No OpenMP)
 run_test "MPI Only" "mpicc -D USE_MPI -o compile/FSB2_MPI FSB2.c $compiler_flags" "./compile/FSB2_MPI"
 
+diff ./fish1.txt ./fish2.txt 2>>diff.txt
+if [ "$(cat diff.txt)" = $'\n' ]; then
+    echo "The two fish are identical."
+else
+    echo "The two fish are not identical."
+fi
+
+
 # Compile and run the OpenMP version (No MPI, With OpenMP)
 run_test "OpenMP Only" "gcc -fopenmp -o compile/FSB2_OpenMP FSB2.c $compiler_flags" "./compile/FSB2_OpenMP"
