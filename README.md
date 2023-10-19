@@ -15,6 +15,7 @@ squeue -u henrychen
 ```
 
 ### Cancel a Job
+
 ```bash
 scancel <JOBID>
 ```
