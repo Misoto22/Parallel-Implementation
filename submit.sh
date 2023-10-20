@@ -4,6 +4,7 @@
 #SBATCH --time=00:10:00
 #SBATCH --exclusive
 #SBATCH --mem-per-cpu=32G
+#module load  openmpi/4.0.5
 
 #SBATCH --output="Testing Results/slurm_output/slurm-%j.out"
 

@@ -332,7 +332,7 @@ int main(int argc, char **argv)
 	}
 #endif
 
-	fishext = (FISHEXT*)malloc(sizeof(FISHEXT) * (size_t)mx); //heap alloc loacl fish array
+	fishext = (FISHEXT*)malloc(sizeof(FISHEXT) * (size_t)mx); // heap alloc local fish array
 	if (fishext == NULL) {
 		printf("Error: failed to allocate buffer\n");
 		exit(1);
