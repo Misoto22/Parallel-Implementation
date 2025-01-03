@@ -1,4 +1,4 @@
-# CITS5507 Project 2
+# Parallel Implementation of Search based on Fish School Behaviour
 
 ## Run Test
 
