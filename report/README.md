@@ -73,7 +73,7 @@ The execution times generally decreased with the increase in the number of MPI p
 All parallel configurations offered a significant speedup over the serial version. The highest speedup, over 30 times the performance of the serial version, was achieved with the combination of 4 MPI processes and 32 threads.
 
 However, there were diminishing returns in speedup as the number of threads increased, especially from 16 to 32 threads.
-![Speedup Comparison](https://github.com/Misoto22/CITS5507-Project-2/blob/main/report/speedup_comparison.png?raw=true)
+![Speedup Comparison](https://github.com/Misoto22/Parallel-Implementation/blob/main/report/speedup_comparison.png?raw=true)
 
 As observed:
 
