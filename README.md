@@ -1,4 +1,6 @@
 # Parallel Implementation of Search based on Fish School Behaviour
+![fish-school-hpc](https://github.com/user-attachments/assets/e6a5b2a9-147f-4eef-8972-9cee061db8d3)
+
 
 ## Run Test
 
